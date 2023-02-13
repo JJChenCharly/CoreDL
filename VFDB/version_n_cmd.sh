@@ -1,5 +1,7 @@
 # Last update: Fri Feb 10 19:30:01 2023
 
+gunzip setA.fas
+
 # bin directory ----
 bin_dir=""
 # dir for output
