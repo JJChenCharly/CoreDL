@@ -21,8 +21,8 @@ time python3 $bin_dir/Step5_makeblastdb.py \
 
 time python3 $bin_dir/Step5_reciprocal_blast.py \
 -c blastn \
--i $cp"/" \
--d $cp"/VFDB_setA_nt.fas" \
+-i $cp"/VFDB_setA_nt.fas" \
+-d $cp"/DBS" \
 -o $cp"/blast_op" \
 -e 1e-5 \
 -u 16 \
